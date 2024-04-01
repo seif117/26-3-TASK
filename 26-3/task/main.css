@@ -1,0 +1,150 @@
+.adamina-regular {
+    font-family: "Adamina", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 388px;
+    height: 126px;
+    gap: 10px;
+    font-family: adamina;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 388px;
+    height: 284px;
+    gap: 24px;
+    padding-top: 55px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid #d4d7e3;
+}
+.span {
+    width: 137px;
+    height: 16px;
+    color: #1E4AE9;
+    font-family: adamina;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main-btn {
+    background-color:#162D3A;
+    color: #FFFFFF;
+    font-family: adamina;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.social-sign-in {
+    width: 388px;
+    height: 180px;
+    gap: 24px;
+}
+.or {
+    padding: 140px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 12px, 9px, 12px, 9px;
+}
+.google-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 36px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    gap: 16px;
+}
+.FB-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 36px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    gap: 16px;
+}
+
+.footer {
+    font-family: adamina;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #122B31;
+}
+.sign {
+    font-family: adamina;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3e64ec;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img {
+    width: 816px;
+    height: 1076px;
+}
+
+@media screen and (max-width: 760px) {
+    .img {
+        width: 440px;
+        height: 250px;
+        /*مش عارف اظبطها
+        هل احط 
+        flex-direction: row-reverse;
+        ولا اعمل ايه
+        */
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 100%;
+        margin-left: 100px;
+        
+    }
+    
+}
